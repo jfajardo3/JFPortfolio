@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+h1, h2, h3, h4, h5, h6, p, label{
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:rgb(98, 98, 98)
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+hr{
+    background-color: grey;
+    height: 5px;
+}
+
+.contactForm{
+    background-color: rgb(248,249,250);
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(98, 98, 98)  !important;
+    background-color: #e8e8e8 !important;
+  }
+  
+  
+  
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #e8e8e8 !important;
+      color:rgb(98, 98, 98) !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  
+        
+  }
+  
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #FFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+  }
