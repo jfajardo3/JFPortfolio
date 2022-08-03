@@ -31,6 +31,7 @@ router.post('/submitContact', (req, res) => {
         fname: req.body.fname,
         lname: req.body.lname,
         email: req.body.email,
+        phoneNumber: req.body.phoneNumber,
         comment: req.body.comment
     });
 

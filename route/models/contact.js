@@ -13,6 +13,10 @@ var contactSchema = new mongoose.Schema({
         type: String
     },
 
+    phoneNumber: {
+        type: String
+    },
+
     comment: {
         type: String
     }
