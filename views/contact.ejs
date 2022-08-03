@@ -1,0 +1,55 @@
+<%- include('layouts/header.ejs') %>
+
+      
+<br>
+<br>
+
+<!--start of form-->
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-5 text-center contactForm p-5 ">
+           
+                <form action="/submitContact" method="post" >
+                    <h3>Contact Me</h3>
+                    <input type="text" class="form-control mb-4" name="fname" aria-describedby="firstName" placeholder="First Name">
+                    <input type="text" class="form-control mb-4" name="lname" aria-describedby="lastName" placeholder="Last Name">
+                    <input type="email" class="form-control mb-4" name="email" aria-describedby="emailHelp" placeholder="Email">
+                    <label for="reason textArea" class="form-label">Please briefly explain your reason for contact:</label>
+                    <textarea class="form-control mb-4" name="comment" rows="3"></textarea>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-secondary mb-4">Submit</button>
+                </div>    
+                
+              </form>
+        </div>
+        <div class="col-5 p-5">
+            <!--Google map-->
+            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13917.00912824228!2d-98.5247016!3d29.3042745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dd54079639010f1!2sTexas%20A%26M%20University-San%20Antonio!5e0!3m2!1sen!2sus!4v1658323273995!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                style="width: 50%; height: 100%" allowfullscreen></iframe>
+            </div>
+  
+  <!--Google Maps-->
+        </div>
+    </div>
+</div>
+<br>
+
+
+
+<!--end of form-->
+
+<!--start of map-->
+
+<!--end of map-->
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+</body>
+</html>
